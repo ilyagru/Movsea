@@ -14,11 +14,11 @@
 - [Communication](#communication)
 - [Installation](#installation)
 	- [Installation of Delphi version](#clean-installation-of-delphi-version)
-	- [Clean installation of C++ version](#clean-installation-of-c++-version)
+	- [Clean installation of C++ version](#clean-installation-of-c%2B%2B-version)
 	- [Building of iOS app](#building-of-ios-app)
 - [Usage](#usage)
 	- [Usage of Delphi version](#usage-of-delphi-version)
-	- [Usage of C++ version](#usage-of-c++-version)
+	- [Usage of C++ version](#usage-of-c%2B%2B-version)
 - [Important Notes](#important-notes)
 - [FAQ](#faq)
 - [Credits](#credits)
@@ -250,7 +250,7 @@ Initially, we looked at many algorithms, some of them use search engines and var
 
 ## Credits
 
-Movsea is created by the Movsea team: [**Ilya Gruzhevski**](ilya.gruzhevski@gmail.com) (CEO, Frontend, iOS), [**Pavel Piskunov**](pa.piskunov@gmail.com) (CTO, Backend), [**Alexander Horlach**]() (CFO, Legal). You can contact them directly.
+Movsea is created by the Movsea team: [**Ilya Gruzhevski**](mailto:ilya.gruzhevski@gmail.com) (CEO, Frontend, iOS), [**Pavel Piskunov**](mailto:pa.piskunov@gmail.com) (CTO, Backend), [**Alexander Horlach**](mailto:horlach.aliaksandr@gmail.com) (CFO, Legal). You can contact us directly.
 
 
 
