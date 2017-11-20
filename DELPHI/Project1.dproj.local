@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.171,=E:\Projects\Project\Lib\BaseBits.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.873,E:\Projects\Project\Lib\BaseBits.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.881,E:\TEMP\PR1\BaseTypesN.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.684,=E:\Projects\Project\BaseBits.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.116,=E:\TEMP\PR1\BaseTypesN.pas</Transaction>
+  </Transactions>
+</BorlandProject>

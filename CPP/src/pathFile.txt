@@ -1,0 +1,6 @@
+=ProgramAbsFolder /home/victor/git/MOVSEA2/src/
+TempVidFolder Data/TempVid/
+TempDataFolder Data/Temp/
+LibraryBaseFolder Data/Library/
+TestVideoIN1 Data/Temp/testIN1.mov
+TestVideoOUT1 Data/Temp/tesIN2.mov

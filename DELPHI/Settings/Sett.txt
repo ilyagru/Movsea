@@ -1,0 +1,5 @@
+Data\
+Data\Library\
+Data\FFmpeg.exe
+Data\Temp\
+Temp\

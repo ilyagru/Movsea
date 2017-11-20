@@ -1,0 +1,25 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+def shared_pods
+	pod 'Font-Awesome-Swift'
+	pod 'R.swift'
+
+	pod 'Alamofire', '~> 4.0'
+	pod 'AlamofireImage'
+
+	pod 'ObjectMapper', :git => 'https://github.com/Hearst-DD/ObjectMapper.git', :branch => 'swift-4'
+	pod 'IQKeyboardManagerSwift'
+
+	pod 'RealmSwift'
+end
+
+target 'movsea' do
+    shared_pods
+end
+
+target 'movseaDebug' do
+    shared_pods
+end
+

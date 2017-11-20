@@ -1,0 +1,15 @@
+{
+	"id" : "1",
+	"title" : "Avengers",
+	"productionCountry" : "USA",
+	"year" : "2016",
+	"director" : "Someone",
+	"stars" : "—",
+	"description" : "Test description",
+	"poster" : "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
+	"rating" : 2.4,
+	"trailer" : "https://youtu.be/eOrNdBpGMv8",
+	"buyMovie" : "https://itunes.apple.com/us/movie/the-avengers/id533654020"
+}
+
+
