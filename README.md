@@ -1,6 +1,8 @@
 ![Movsea: recognizing movies](https://raw.githubusercontent.com/ilyagru/Movsea/master/Movsea.png)
 
 ![languages](https://img.shields.io/badge/languages-4-green.svg)
+![server platform](https://img.shields.io/badge/server%20platform-windows%20%7C%20linux-lightgrey.svg)
+![client platform](https://img.shields.io/badge/client%20platform-ios-lightgrey.svg)
 ![test coverage](https://img.shields.io/badge/test%20coverage-no%20tests-red.svg)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ilyagru/Movsea/blob/master/LICENSE)
 
@@ -14,11 +16,11 @@
 - [Communication](#communication)
 - [Installation](#installation)
 	- [Installation of Delphi version](#clean-installation-of-delphi-version)
-	- [Clean installation of C++ version](#clean-installation-of-c%2B%2B-version)
-	- [Building of iOS app](#building-of-ios-app)
+	- [Clean installation of C++ version](#clean-installation-of-cpp-version)
+	- [Building iOS app](#building-ios-app)
 - [Usage](#usage)
 	- [Usage of Delphi version](#usage-of-delphi-version)
-	- [Usage of C++ version](#usage-of-c%2B%2B-version)
+	- [Usage of C++ version](#usage-of-cpp-version)
 - [Important Notes](#important-notes)
 - [FAQ](#faq)
 - [Credits](#credits)
@@ -115,7 +117,7 @@ Both versions use [ffmpeg](https://www.ffmpeg.org) for video processing (for wor
 6) Change the connection settings you need
 7) Change the path to the folder with the data and with ffmpeg
 
-### Clean installation of C++ version
+### Clean installation of CPP version
 
 1) Install Eclipse (tested on the NEON version)
 	- Install dialect C++ 11 (С ++ Compiler Options -> Dialects)
@@ -128,7 +130,7 @@ Both versions use [ffmpeg](https://www.ffmpeg.org) for video processing (for wor
 		Linux example:
 		- Download archive with POCO [source code](https://pocoproject.org/download/)
 		- Run in the console
-		(example for v1.8.1, instead of `make` it is possible to use `gmake` depending on the installed system)
+		(example for v1.8.1, instead of `make` it is possible to use `gmake` depending on the installed one on your system)
 			```shell
 			gunzip poco-1.8.0.1.tar.gz
 			tar -xf poco-1.8.0.1.tar
@@ -148,7 +150,7 @@ Both versions use [ffmpeg](https://www.ffmpeg.org) for video processing (for wor
 4) Change the connection settings you need in the code
 5) The path to ffmpegg can be written in the file `ffmpegUtil.cpp` (except for Windows)
 
-### Building of iOS app
+### Building iOS app
 
 1) `cd IOS-APP`
 2) run `pod install`
@@ -191,7 +193,7 @@ or combine multiple sets)
 - In the combo box you can specify a filter (not always works)
 - In a multi-line text field on the right the technical information will be displayed
 
-### Usage of C++ version
+### Usage of CPP version
 
 In the C++ version there is no visual interface. All actions are performed via web requests (for example, using a browser). To test all the functionality you need a program that allows you to do POST requests with data, (e.g. [Postman](getpostman.com)). Next, all paths are described relatively to the address of the computer with the application running (e.g. `127.0.0.1/console` will be written simply `/console`).
 
@@ -228,7 +230,7 @@ To start the program, you must build and run it.
 
 ### Why multiple languages?
 
-We initially did not take into account the amount of necessary resources for this task. Because of this, the most optimal language was chosen according to the speed of development and the simplicity of writing algorithms. But just as soon as we moved to the processing of the arrays of frames, the mistake became immediately clear. At that time, we needed a very stable development and the possibility of visual analysis of frames, so the choice fell on Delphi on which the most complete version of the program was created later. But because of problems with commercial use and the need for a multi-platform server part, in the end, the C++ language was chosen which met all the criteria except complexity.
+We initially did not take into account the amount of necessary resources for this task. Because of this, the most optimal language was chosen according to the speed of development and the simplicity of writing algorithms (Python). But just as soon as we moved to the processing of the arrays of frames, the mistake became immediately clear. At that time, we needed a very stable development and the possibility of visual analysis of frames, so the choice fell on Delphi on which the most complete version of the program was created later. But because of problems with commercial use and the need for a multi-platform server part, in the end, the C++ language was chosen which met all the criteria except complexity.
 
 ### Which algorithms were used?
 
