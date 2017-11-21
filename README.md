@@ -144,7 +144,7 @@ Both versions use [ffmpeg](https://www.ffmpeg.org) for video processing (for wor
 3) Install ffmpeg
 	- Windows
 		- Download archive from [ffmpeg](http://ffmpeg.zeranoe.com/builds/)
-		- Unarchive and put the file ffmpeg.exe (in the bin folder) in the project folder
+		- Unarchive and put the file `ffmpeg.exe` (in the bin folder) in the project folder
 	- Linux
 		- install ffmpeg using the terminal and the installed package manager (e.g. `sudo apt-get ffmpeg`)
 4) Change the connection settings you need in the code
